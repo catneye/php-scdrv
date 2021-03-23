@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+spawn telnet 192.168.8.2
+expect "ogin:"
+send root\r
+expect "assword:"
+send root152+\r
+expect ">"
+send "enable\r"
+expect "GS1004#"
+send "debug gsm all event\r"
+send "debug gsm all cmd\r"
+send "terminal monitor\r"
+send "gsm 1 0 ussd send *100#\r"
+expect "EVENT"
+send "terminal no monitor\r"
+send "no debug all\rexit\rexit\r"
+expect eof

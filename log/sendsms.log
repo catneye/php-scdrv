@@ -1,0 +1,782 @@
+spawn telnet 192.168.8.4
+Trying 192.168.8.4...
+Connected to 192.168.8.4.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.004.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004-3> enable
+GS1004-3# spawn telnet 192.168.8.4
+Trying 192.168.8.4...
+Connected to 192.168.8.4.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.004.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004-3> enable
+GS1004-3# 
+telnet> exit
+?Invalid command
+telnet> spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# 
+telnet> spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# 
+telnet> exit
+?Invalid command
+telnet> exit
+?Invalid command
+telnet> spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854          69 
+GSM-1/0: SMS ERROR(0) - phone failure 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854 
+% Command incomplete.
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854          69 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854 
+% Command incomplete.
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854 н ывмпывм вы пмы пывп ып це п вым ям вм вфа уа фав фа фп вып вып аыпиа выипавы иыавимыамы пмыа пыа ипаы иаы иаы иаыиаыиавыи аыи аыи аыи ыаиаыиыаиаыиаы иаы иаы и иаыаимывавымвы мы иыа иаы иав иавиваиаиимавым ыми ывим ывим ыавиаывиавиавиавиав ав и ави авиавиа
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854 АHHHHиииннн
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854 ФЫВАПРОЛ ЯЧСМИТЬ ЙЦУКЕHГШЩЗХ ФЫВАПРТИМ КЕHРТОШЧС ИПЕУЫВ ИРHТОЛД ИПЕКУ ИРHОГВУК
+GSM-1/0: SMS ERROR(305) - invalid text mode parameter 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89034892902 PHP скрипт принимает от клиента некий текст в кодировке utf8. Кодиро
+GSM-1/0: SMS ERROR(0) - phone failure 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 1 sms message send 89034892902 PHP скрипт принимает от клиента некий текст в кодировке utf8. Кодиро
+GSM-1/1: SMS ERROR(0) - phone failure 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 ussd send *100#
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89034892902 Как дела
+  MESSAGE  Messages
+  <cr>     
+GS1004# gsm 1 0 sms message send 89034892902 Как дела Даша.
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 1 sms message send 89034892902 Как дела
+  MESSAGE  Messages
+  <cr>     
+GS1004# gsm 1 1 sms message send 89034892902 Как дела Даша.
+GSM-1/1: SMS ERROR(322) - memory full 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89034892902 Как дела
+  MESSAGE  Messages
+  <cr>     
+GS1004# gsm 1 0 sms message send 89034892902 Как дела Даша.
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 2 sms message send 89034892902 Как дела
+  MESSAGE  Messages
+  <cr>     
+GS1004# gsm 1 2 sms message send 89034892902 Как дела Даша.
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.4
+Trying 192.168.8.4...
+Connected to 192.168.8.4.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.004.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004-3> enable
+GS1004-3# gsm 1 0 sms message send 89034892902 Как дела
+  MESSAGE  Messages
+  <cr>     
+GS1004-3# gsm 1 0 sms message send 89034892902 Как дела Даша.
+GSM-1/0: SMS ERROR(8) - Unknown Error Code 
+GS1004-3# exit
+GS1004-3> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.4
+Trying 192.168.8.4...
+Connected to 192.168.8.4.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.004.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004-3> enable
+GS1004-3# gsm 1 2 sms message send 89034892902 Как дела
+  MESSAGE  Messages
+  <cr>     
+GS1004-3# gsm 1 2 sms message send 89034892902 Как дела Даша.
+GS1004-3# exit
+GS1004-3> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89885177527 рпропо ирнинр ргргргр
+GSM-1/0: SMS ERROR(8) - Unknown Error Code 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 0 sms message send 89094027854 рпропо ирнинр ргргргр
+GSM-1/0: SMS ERROR(322) - memory full 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 2 sms message send 89885177527 СМС-Текст
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 3 sms message send 89604697233 Добрый день!
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.3
+Trying 192.168.8.3...
+Connected to 192.168.8.3.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 2 sms message send 89604697233 СМС-Текст
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
+spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# spawn telnet 192.168.8.2
+Trying 192.168.8.2...
+Connected to 192.168.8.2.
+Escape character is '^]'.
+
+
+
+Welcome, APOS(tm) Kernel Version 8.51.002.
+Copyright (c) 1999-2010 AddPac Technology Co., Ltd.
+
+
+User Access Verification
+
+Login: root
+Password: 
+GS1004> enable
+GS1004# gsm 1 2 sms message send 8  Доброе утро! Всем хорошего настроения и продуктивного рабочего дня!
+GSM-1/2: SMS ERROR(0) - phone failure 
+GS1004# exit
+GS1004> exit
+Connection closed by foreign host.
