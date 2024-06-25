@@ -10,17 +10,17 @@ include_once("./connect.php");
     //echo($_POST[numbers]);
     //echo($_POST[smstext]);
 $allfields=false;
-if (($_POST[gateway])&&($_POST[gateway]!="")&&
-    ($_POST[port])&&($_POST[port]!="")&&
-    ($_POST[numbers])&&($_POST[numbers]!="")&&
-    ($_POST[smstext])&&($_POST[smstext]!="")
+if (($_POST["gateway"])&&($_POST["gateway"]!="")&&
+    ($_POST["port"])&&($_POST["port"]!="")&&
+    ($_POST["numbers"])&&($_POST["numbers"]!="")&&
+    ($_POST["smstext"])&&($_POST["smstext"]!="")
 ){
     $allfields=true;
 }
 
 if ($allfields){
     $gwquery="select address, user, password from gateways
-    where id=".$_POST[gateway];
+    where id=".$_POST["gateway"];
     //echo($gwquery);
     $gwresult=pg_query($gwquery);
 if ($gwresult){
@@ -29,10 +29,10 @@ if ($gwresult){
     $host=$gwrow[0];
     $user=$gwrow[1];
     $password=$gwrow[2];
-    $port=$_POST[port];
-    $smstext=$_POST[smstext];
-    $numbers=preg_replace("/[^0-9\\;]/u","",$_POST[numbers]);
-    $smstext=preg_replace("~[\s]+~"," ",$_POST[smstext]);
+    $port=$_POST["port"];
+    $smstext=$_POST["smstext"];
+    $numbers=preg_replace("/[^0-9\\;]/u","",$_POST["numbers"]);
+    $smstext=preg_replace("~[\s]+~"," ",$_POST["smstext"]);
     $smstext=preg_replace("/[\\Н]/u","H",$smstext);
 
     echo("<p>".$arr_lang["numbers-transform"].$numbers."</p>");

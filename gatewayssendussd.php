@@ -6,15 +6,15 @@
 include_once("./lang.php");
 include_once("./connect.php");
 $allfields=false;
-if (($_POST[gateway])&&($_POST[gateway]!="")&&
-    ($_POST[port])&&($_POST[port]!="")&&
-    ($_POST[ussdtext])&&($_POST[ussdtext]!="")
+if (($_POST["gateway"])&&($_POST["gateway"]!="")&&
+    ($_POST["port"])&&($_POST["port"]!="")&&
+    ($_POST["ussdtext"])&&($_POST["ussdtext"]!="")
 ){
     $allfields=true;
 }
 if ($allfields){
     $gwquery="select address, user, password from gateways
-    where id=".$_POST[gateway];
+    where id=".$_POST["gateway"];
     //echo($gwquery);
     $gwresult=pg_query($gwquery);
 if ($gwresult){
@@ -23,8 +23,8 @@ if ($gwresult){
     $host=$gwrow[0];
     $user=$gwrow[1];
     $password=$gwrow[2];
-    $port=$_POST[port];
-    $ussdtext=$_POST[ussdtext];
+    $port=$_POST["port"];
+    $ussdtext=$_POST["ussdtext"];
     echo("<p>".$arr_lang["ussdtext-transform"].$ussdtext."</p>");
     echo("<p style='visibility:hidden;'>");
     ini_set("expect.timeout", 60);

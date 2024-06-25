@@ -4,9 +4,9 @@
 //(c)2010-2012 Oleg Kuchenko
 
 include_once($app."lang.php");
-if ($_POST[login]!=""){
+if ($_POST["login"]!=""){
     include_once("./connect.php");
-    $query="select id, name, secret, idrole, human from accounts where name='".$_POST[login]."'";
+    $query="select id, name, secret, idrole, human from accounts where name='".$_POST["login"]."'";
     //echo $query;
     $result=pg_query($query);
     if ($result){
@@ -28,7 +28,7 @@ if ($_POST[login]!=""){
         echo("result error");
         header("Location: index.php?error=1");
     }
-}else if ( ($_GET[action]!="")&&($_GET[action]=="exit")){
+}else if ( ($_GET["action"]!="")&&($_GET["action"]=="exit")){
     session_start();
     unset($_SESSION['username']);
     unset($_SESSION['useridrole']);

@@ -6,7 +6,7 @@
 include_once($app."lang.php");
 include_once($app."connect.php");
 
-if ($_POST[description]&&(trim($_POST[description])!="")){
+if ($_POST["description"]&&(trim($_POST["description"])!="")){
     echo $arr_lang["filename"].": " . $_FILES["media"]["name"] . "<br />";
     echo $arr_lang["filetype"].": " . $_FILES["media"]["type"] . "<br />";
     echo $arr_lang["filesize"].": " . ($_FILES["media"]["size"] / 1024) . " Kb<br />";
@@ -70,7 +70,7 @@ if ($_POST[description]&&(trim($_POST[description])!="")){
     if ($resname!=""){
         echo $arr_lang["upload-stored"].": " .$resname."<br />";
          $uploadquery = "insert into medialib (name, description, shortname) values".
-         "('".$tmpname.".gsm', '".$_POST[description]."', '".$tmpname."')";
+         "('".$tmpname.".gsm', '".$_POST["description"]."', '".$tmpname."')";
          //echo($uploadquery);
          $uploadresult=pg_query($uploadquery);
     }

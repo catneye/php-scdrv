@@ -24,10 +24,10 @@ $(function() {
 <td><div>".$arr_lang["enddate"].":&nbsp<input type='text' id='edate' name='edate' /></div></td>
 <td><div>".$arr_lang["src"].":&nbsp<input type='text' id='src' name='src' /></td>
 <td><div>".$arr_lang["dst"].":&nbsp<input type='text' id='dst' name='dst' /></td>
-<td><input type='hidden' id='action' name='action' value='".$_GET[action]."'></td>");
+<td><input type='hidden' id='action' name='action' value='".$_GET["action"]."'></td>");
 
-if ($_GET[option]){
-    echo ("<td><input type='hidden' id='option' name='option' value='".$_GET[option]."'></td>");
+if ($_GET["option"]){
+    echo ("<td><input type='hidden' id='option' name='option' value='".$_GET["option"]."'></td>");
 }
 
 echo ("</tr>");

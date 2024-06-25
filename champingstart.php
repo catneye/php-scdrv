@@ -6,10 +6,10 @@
 include_once("./lang.php");
 include_once("./connect.php");
 
-if ( ($_SESSION["username"]) && ($_GET[option]) && 
-( ($_GET[option] == "start")||($_GET[option] == "stop")) && ($_GET[item]) ){
+if ( ($_SESSION["username"]) && ($_GET["option"]) && 
+( ($_GET["option"] == "start")||($_GET["option"] == "stop")) && ($_GET["item"]) ){
     
-    $champquery = "update champing set status='".$_GET[option]."' where id=".$_GET[item];
+    $champquery = "update champing set status='".$_GET["option"]."' where id=".$_GET["item"];
     $champresult=pg_query($champquery);
     echo($arr_lang["state-update-ok"]);
 }

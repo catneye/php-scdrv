@@ -28,8 +28,8 @@ echo ("<tr><td>".$arr_lang["user"]."</td><td><input type='text' name='user' styl
 echo ("<tr><td>".$arr_lang["password"]."</td><td><input type='text' name='password' style='width: 100%' value='XXX'/></td></tr>");
 
 echo ("<tr><td><input type='submit' name='select' value='".$arr_lang["select"]."'></td>");
-echo ("<td><input type='hidden' name='action' value='".$_GET[action]."'>
-<input type='hidden' name='option' value='".$_GET[option]."'>
+echo ("<td><input type='hidden' name='action' value='".$_GET["action"]."'>
+<input type='hidden' name='option' value='".$_GET["option"]."'>
 </td></tr>");
 echo ("</form></table>");
 

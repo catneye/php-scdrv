@@ -6,7 +6,7 @@
 include_once($app."lang.php");
 include_once($app."connect.php");
 
-if ( ($_SESSION["username"]) && ($_GET[option]) && ($_GET[option] == "delete") && ($_GET[item]) ){
+if ( ($_SESSION["username"]) && ($_GET["option"]) && ($_GET["option"] == "delete") && ($_GET["item"]) ){
     
     $gwquery = "update gateways set deldate=now() where id=".$_GET[item];
     $gwresult=pg_query($gwquery);

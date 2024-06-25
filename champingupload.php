@@ -8,19 +8,19 @@ include_once("./connect.php");
 
 $allfields=false;
 
-if ( ($_POST[chname])&&($_POST[chname]!="")&&
- ($_POST[description])&&($_POST[description]!="")&&
- ($_POST[limitcnt])&&($_POST[limitcnt]>0)&&
- ($_POST[macro])&&($_POST[macro]!="")&&
- ($_POST[defaultchannel])&&($_POST[defaultchannel]!="")&&
- ($_POST[callerid])&&($_POST[callerid]!="")&&
- ($_POST[waitmsec])&&($_POST[waitmsec]>0)
+if ( ($_POST["chname"])&&($_POST["chname"]!="")&&
+ ($_POST["description"])&&($_POST["description"]!="")&&
+ ($_POST["limitcnt"])&&($_POST["limitcnt"]>0)&&
+ ($_POST["macro"])&&($_POST["macro"]!="")&&
+ ($_POST["defaultchannel"])&&($_POST["defaultchannel"]!="")&&
+ ($_POST["callerid"])&&($_POST["callerid"]!="")&&
+ ($_POST["waitmsec"])&&($_POST["waitmsec"]>0)
  ){
     $allfields=true;
 }
 
 $count=0;
-$paramquery = "select count(id) from champing where name='".$_POST[chname]."'";
+$paramquery = "select count(id) from champing where name='".$_POST["chname"]."'";
 $paramresult=pg_query($paramquery);
 if ($paramresult){
     $paramrow=pg_fetch_row($paramresult);
@@ -44,8 +44,8 @@ while ($_POST["hmacrodata".i]){
 
 if ($allfields){
     $chquery="insert into champing (name,description,limitcnt,macro,macrodata,defaultchannel,callerid,waitmsec,status)
-    values ('".$_POST[chname]."','".$_POST[description]."',".$_POST[limitcnt].",'".$_POST[macro].
-    "','".$_POST[hmacrodata]."','".$_POST[defaultchannel]."','".$_POST[callerid]."',".$_POST[waitmsec].",'stop',
+    values ('".$_POST["chname"]."','".$_POST["description"]."',".$_POST["limitcnt"].",'".$_POST["macro"].
+    "','".$_POST["hmacrodata"]."','".$_POST["defaultchannel"]."','".$_POST["callerid"]."',".$_POST["waitmsec"].",'stop',
     )";
     $chresult=pg_query($chquery);
     //echo($chquery);

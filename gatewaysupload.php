@@ -7,17 +7,17 @@ include_once("./lang.php");
 include_once("./connect.php");
 
 $allfields=false;
-if ( ($_POST[chname])&&($_POST[chname]!="")&&
- ($_POST[description])&&($_POST[description]!="")&&
- ($_POST[user])&&($_POST[user]!="")&&
- ($_POST[password])&&($_POST[password]!="")&&
- ($_POST[address])&&($_POST[address]!="")
+if ( ($_POST["chname"])&&($_POST["chname"]!="")&&
+ ($_POST["description"])&&($_POST["description"]!="")&&
+ ($_POST["user"])&&($_POST["user"]!="")&&
+ ($_POST["password"])&&($_POST["password"]!="")&&
+ ($_POST["address"])&&($_POST["address"]!="")
  ){
     $allfields=true;
 }
 
 $count=0;
-$paramquery = "select count(id) from gateways where name='".$_POST[chname]."'";
+$paramquery = "select count(id) from gateways where name='".$_POST["chname"]."'";
 $paramresult=pg_query($paramquery);
 if ($paramresult){
     $paramrow=pg_fetch_row($paramresult);
@@ -28,8 +28,8 @@ if ($count>0){
 }
 if ($allfields){
     $chquery="insert into gateways (name,description,user,password,address)
-    values ('".$_POST[chname]."','".$_POST[description]."','".$_POST[user]."','".$_POST[password].
-    "','".$_POST[address]."'
+    values ('".$_POST["chname"]."','".$_POST["description"]."','".$_POST["user"]."','".$_POST["password"].
+    "','".$_POST["address"]."'
     )";
     echo($chquery);
     $chresult=pg_query($chquery);

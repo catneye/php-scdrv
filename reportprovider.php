@@ -23,14 +23,14 @@ where 1=1 " ;
 
 echo("<div class='usedfilters'><B>".$arr_lang["usedfilters"].":</B> ");
 
-if ( !$_GET[alldate] ) {
-    if ( $_GET[bdate] ) {
-        $bdate=$_GET[bdate]." 0:0:0";
-        $edate=$_GET[bdate]." 23:59:59";
+if ( !$_GET["alldate"] ) {
+    if ( $_GET["bdate"] ) {
+        $bdate=$_GET["bdate"]." 0:0:0";
+        $edate=$_GET["bdate"]." 23:59:59";
     }
     echo($arr_lang["begindate"]." - ".$bdate."; ");
-    if ( $_GET[edate] ) {
-        $edate=$_GET[edate]." 23:59:59";
+    if ( $_GET["edate"] ) {
+        $edate=$_GET["edate"]." 23:59:59";
     }
     echo($arr_lang["enddate"]." - ".$edate."; ");
 
@@ -39,14 +39,14 @@ if ( !$_GET[alldate] ) {
     echo($arr_lang["alldate"]."; ");
 }
 
-if ( $_GET[src] ) {
-    $src=$_GET[src];
+if ( $_GET["src"] ) {
+    $src=$_GET["src"];
     $listquery = $listquery." and providers.src REGEXP '".$src."'";
     echo($arr_lang["src"]." - ".$src."; ");
 }
 
-if ( $_GET[dst] ) {
-    $dst=$_GET[dst];
+if ( $_GET["dst"] ) {
+    $dst=$_GET["dst"];
     $listquery = $listquery." and providers.dst REGEXP '".$dst."'";
     echo($arr_lang["dst"]." - ".$dst."; ");
 }

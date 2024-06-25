@@ -17,7 +17,7 @@ if (  ($mime== "text/comma-separated-values")||($mime=="text/csv")){
          echo $arr_lang["filename"].": " . $_FILES["media"]["name"] . "<br />";
          echo $arr_lang["filetype"].": " . $_FILES["media"]["type"] . "<br />";
          echo $arr_lang["filesize"].": " . ($_FILES["media"]["size"] / 1024) . " Kb<br />";
-         if ($_POST[limit] && ($_POST[limit]>0) && $_POST[item] ){
+         if ($_POST["limit"] && ($_POST["limit"]>0) && $_POST["item"] ){
              $tmpname=$uploaddir;
              for ($i=0;$i<10;$i++){
                  $tmpname.=mt_rand(0,100);
@@ -30,7 +30,7 @@ if (  ($mime== "text/comma-separated-values")||($mime=="text/csv")){
                  while(($line=fgets($tmpfile,256))!== false){
                      $cleanline=preg_replace("/[^0-9]/","", $line);
                      $basequery="insert into base (name, adddate, idchamping, priority)
-                     values ('".$cleanline."',now(),".$_POST[item].",".$_POST[limit].")";
+                     values ('".$cleanline."',now(),".$_POST["item"].",".$_POST["limit"].")";
                      //echo($basequery);
                      $baseresult=pg_query($basequery);
                  }

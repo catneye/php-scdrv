@@ -8,9 +8,9 @@ include_once($app."lang.php");
 include_once($app."connect.php");
 include_once($app."astUtils.php");
 
-if ($_GET[func] && ($_GET[func]=="fillmacro")){
+if ($_GET["func"] && ($_GET["func"]=="fillmacro")){
     $ret="";
-    $paramquery = "select params from macros where name='".$_GET[param]."'";
+    $paramquery = "select params from macros where name='".$_GET["param"]."'";
 
     $paramresult=pg_query($paramquery);
     if ($paramresult){
@@ -39,9 +39,9 @@ if ($_GET[func] && ($_GET[func]=="fillmacro")){
     echo($ret);
 }
 
-if ($_GET[func] && ($_GET[func]=="checkchampingname")){
+if ($_GET["func"] && ($_GET["func"]=="checkchampingname")){
     $count=0;
-    $paramquery = "select count(id) from champing where name='".$_GET[param]."'";
+    $paramquery = "select count(id) from champing where name='".$_GET["param"]."'";
 
     $paramresult=pg_query($paramquery);
     if ($paramresult){
@@ -55,9 +55,9 @@ if ($_GET[func] && ($_GET[func]=="checkchampingname")){
     }
 }
 
-if ($_GET[func] && ($_GET[func]=="checkgatename")){
+if ($_GET["func"] && ($_GET["func"]=="checkgatename")){
     $count=0;
-    $paramquery = "select count(id) from gateways where name='".$_GET[param]."'";
+    $paramquery = "select count(id) from gateways where name='".$_GET["param"]."'";
 
     $paramresult=pg_query($paramquery);
     if ($paramresult){
@@ -71,9 +71,9 @@ if ($_GET[func] && ($_GET[func]=="checkgatename")){
     }
 }
 
-if ($_GET[func] && ($_GET[func]=="champingstate")){
+if ($_GET["func"] && ($_GET["func"]=="champingstate")){
     //echo($_GET[param]);
-    $paramsql = "select status from champing where id=".$_GET[param];
+    $paramsql = "select status from champing where id=".$_GET["param"];
     //echo($paramsql);
     $paramresult=pg_query($paramsql);
     if ($paramresult){
@@ -82,7 +82,7 @@ if ($_GET[func] && ($_GET[func]=="champingstate")){
     }
 }
 
-if ($_GET[func] && ($_GET[func]=="getagenturl")){
+if ($_GET["func"] && ($_GET["func"]=="getagenturl")){
     session_start();
     $ret="";
     if ($_SESSION["clid"]!=null){
